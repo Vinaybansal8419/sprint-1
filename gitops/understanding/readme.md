@@ -109,8 +109,6 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
-| https://argo-cd.readthedocs.io/en/stable/ | Argo CD Documentation |
-| https://fluxcd.io/docs/ | Flux Documentation |
 | https://jenkins-x.io/docs/ | Jenkins X Documentation |
+| https://fluxcd.io/docs/ | Flux Documentation |
 | https://www.terraform.io/docs/index.html | Terraform Documentation |
-| https://kustomize.io/ | Kustomize Documentation |
