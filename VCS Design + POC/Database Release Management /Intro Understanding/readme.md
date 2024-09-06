@@ -3,6 +3,8 @@
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 06-09-24 | version 1 | Vinay Bansal | Intial Commit |
+
+
   
 ## Introduction
 Version control for databases is essential for managing changes to database schemas and data. This practice is akin to source code versioning and helps teams manage, track, and deploy database changes effectively. This guide covers the importance of database version control, available tools, detailed comparisons, best practices, and additional resources.
