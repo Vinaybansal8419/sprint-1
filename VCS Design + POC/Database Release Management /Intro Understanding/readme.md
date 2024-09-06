@@ -1,5 +1,9 @@
 # Version Control for Databases: A Comprehensive Guide
 
+  | Author        | Created on | Version | Last updated by | Last edited on |
+  |-------------|---------|-------------|-------------|---------|
+  | Vinay Bansal | 06-09-24 | version 1 | Vinay Bansal | Intial Commit |
+  
 ## Introduction
 Version control for databases is essential for managing changes to database schemas and data. This practice is akin to source code versioning and helps teams manage, track, and deploy database changes effectively. This guide covers the importance of database version control, available tools, detailed comparisons, best practices, and additional resources.
 
@@ -72,10 +76,12 @@ For more assistance or information, reach out to:
 - **Twitter**: [@DBToolsSupport](https://twitter.com/DBToolsSupport)
 
 ## References
-1. [Liquibase Documentation](https://docs.liquibase.com)
-2. [Flyway Documentation](https://flywaydb.org/documentation/)
-3. [Redgate SQL Source Control Documentation](https://www.red-gate.com/products/sql-development/sql-source-control/documentation)
-4. [Alembic Documentation](https://alembic.sqlalchemy.org/en/latest/)
-5. [DbUp Documentation](https://dbup.readthedocs.io/en/latest/)
+For further reading and resources on GitOps, check out the following:
+
+| Links | Descriptions|
+|------|---------------------|
+| https://docs.liquibase.com | Liquibase Documentation |
+| https://alembic.sqlalchemy.org/en/latest/ | Alembic Documentation |
+| https://docs.liquibase.com | Liquibase Documentation |
 
 This guide provides a foundation for understanding database version control and serves as a starting point for implementation and further exploration.
