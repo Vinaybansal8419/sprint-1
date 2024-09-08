@@ -59,21 +59,29 @@ Before setting up Liquibase, ensure that you have the following:
 | 3306            | Used by MariaDB   |
 | 50000            | Used by DB2   |
 
-## Install git
+## Architecture
+Liquibase operates on a simple yet effective architecture that consists of:
 
-```sudo apt install git```
+## Step-by-Step setup guide
+
+ ## 1. Install Java Development Kit (JDK)
+
+```
+sudo apt update
+sudo apt install openjdk-11-jdk
+```
 
 
-### Clone the git repository with command 
+### 2. Verify the installation:
+```
+java -version
+```
 
 
+### 3. Install Liquibase
+```
 
-```git clone https://github.com/OT-MICROSERVICES/employee-api.git```
-
-
-##  Step-by-step installation
-
-### 1. Below Commands to setup scylla db
+```
 
 #### Install a repo file and add the ScyllaDB APT repository to your system.
 
@@ -308,6 +316,10 @@ http://localhost:8080/swagger/index.html
 ## Architecture
 
 ![Employee_API Architecture drawio](https://github.com/user-attachments/assets/baecdfb0-8c23-4c02-8803-d0bfee23a8e1)
+
+
+
+https://docs.liquibase.com/workflows/liquibase-community/migrate-with-changetypes.html  
 
 
 
