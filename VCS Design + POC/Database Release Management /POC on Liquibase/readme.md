@@ -8,6 +8,7 @@
 The Employee REST API is a Golang-based microservice that handles all employee-related transactions within the OT-Microservices. It is fully platform-independent and can be run on any platform. 
 
 ## Table of Contents
+1. [Introduction](#introduction)
 1. [Pre-requisites](#pre-requisites)
 2. [System Requirements](#system-requirements)
 3. [Dependencies](#dependencies)
@@ -19,14 +20,18 @@ The Employee REST API is a Golang-based microservice that handles all employee-r
 7. [Application Build](#application-build)
 8. [Architecture](#architecture)
 
+
+## Introduction
+Liquibase is an open-source database schema change management tool that helps in tracking, managing, and applying database changes in a systematic and version-controlled manner. It is designed to handle database changes across different environments, making it easier for teams to maintain database consistency and streamline deployment processes. Liquibase supports various databases and integrates seamlessly with continuous integration and continuous delivery (CI/CD) pipelines.
+
 ## Pre-requisites
-This application requires no prerequisites except for database connectivity. Additionally, Redis can be added as a caching system.
+Before setting up Liquibase, ensure that you have the following:
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
-| Processor                | dual-core              |
-| RAM                      | 4GB                    |
+| Processor                | Multi-Core |
+| RAM                      | 1GB                    |
 | Disk                     | 20GB                   |
 | OS                       | Ubuntu(22.04)          |
 
@@ -47,8 +52,12 @@ This application requires no prerequisites except for database connectivity. Add
 ## Important Ports
 | Inbound Traffic | Description        |
 | --------------- | ------------------ |
-| 6379            | Used by Redis      |
-| 9042            | Used by ScyllaDB   |
+| 5432            | Used by PostgreSQL      |
+| 3306            | Used by MySQL   |
+| 1521            | Used by Oracle   |
+| 1433            | Used by SQL Server   |
+| 3306            | Used by MariaDB   |
+| 50000            | Used by DB2   |
 
 ## Install git
 
